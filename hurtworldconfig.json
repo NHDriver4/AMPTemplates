@@ -1,7 +1,8 @@
 [
     {
         "DisplayName":"Game Port",
-        "Category":"Server Settings",
+        "Category":"Hurtworld:stadia_controller",
+        "Subcategory":"Server:dns:1",
         "Description":"",
         "Keywords":"",
         "FieldName":"$GamePort",
@@ -12,9 +13,11 @@
         "IncludeInCommandLine":false,
         "DefaultValue":"12871",
         "EnumValues":{}
-    },{
+    },
+    {
         "DisplayName":"Query Port",
-        "Category":"Server Settings",
+        "Category":"Hurtworld:stadia_controller",
+        "Subcategory":"Server:dns:1",
         "Description":"",
         "Keywords":"",
         "FieldName":"$QueryPort",
@@ -25,9 +28,11 @@
         "IncludeInCommandLine":false,
         "DefaultValue":"12881",
         "EnumValues":{}
-    },{
+    },
+    {
         "DisplayName":"Server Name",
-        "Category":"Server Settings",
+        "Category":"Hurtworld:stadia_controller",
+        "Subcategory":"Server:dns:1",
         "Description":"Server name as shown in the server browser",
         "Keywords":"name",
         "FieldName":"servername",
@@ -38,9 +43,11 @@
         "SkipIfEmpty":true,
         "DefaultValue":"My Hurtworld Server",
         "EnumValues":{}
-    },{
+    },
+    {
         "DisplayName":"Player Limit",
-        "Category":"Server Settings",
+        "Category":"Hurtworld:stadia_controller",
+        "Subcategory":"Server:dns:1",
         "Description":"Maximum number of players that may connect to the server",
         "Keywords":"maximum,players",
         "FieldName":"$MaxUsers",
@@ -53,9 +60,11 @@
         "Suffix":"players",
         "EnumValues":{},
         "MinValue":"1"
-    },{
+    },
+    {
         "DisplayName":"Map",
-        "Category":"Server Settings",
+        "Category":"Hurtworld:stadia_controller",
+        "Subcategory":"Server:dns:1",
         "Description":"Sets the map to load on the server",
         "Keywords":"map",
         "FieldName":"map",
@@ -66,9 +75,11 @@
         "DefaultValue":"nullius",
         "Placeholder":"nullius",
         "EnumValues":{}
-    },{
+    },
+    {
         "DisplayName":"Enable Creative Mode",
-        "Category":"Server Settings",
+        "Category":"Hurtworld:stadia_controller",
+        "Subcategory":"Server:dns:1",
         "Description":"If enabled, creative mode will apply (free build)",
         "Keywords":"creative,mode",
         "FieldName":"creativemode",
@@ -81,9 +92,11 @@
             "False":"0",
             "True":"1"
         }
-    },{
+    },
+    {
         "DisplayName":"Add Admin",
-        "Category":"Server Settings",
+        "Category":"Hurtworld:stadia_controller",
+        "Subcategory":"Server:dns:1",
         "Description":"Steam64 ID of server admin. [Find Steam64 IDs](https://steamidfinder.com/)",
         "Keywords":"admin",
         "FieldName":"addadmin",
@@ -95,9 +108,28 @@
         "DefaultValue":"",
         "Placeholder":"58673958674589375",
         "EnumValues":{}
-    },{
+    },
+    {
+        "DisplayName":"Enable Easy Anti-Cheat",
+        "Category":"Hurtworld:stadia_controller",
+        "Subcategory":"Server:dns:1",
+        "Description":"If set, Easy Anti-Cheat will be enabled on the server",
+        "Keywords":"eac,anti,cheat,anticheat,enforceeac",
+        "FieldName":"enforceeac",
+        "InputType":"checkbox",
+        "IsFlagArgument":false,
+        "ParamFieldName":"enforceeac",
+        "IncludeInCommandLine":true,
+        "DefaultValue":"1",
+        "EnumValues":{
+            "False":"0",
+            "True":"1"
+        }
+    },
+    {
         "DisplayName":"Install uMod",
-        "Category":"Server Settings",
+        "Category":"Hurtworld:stadia_controller",
+        "Subcategory":"Server:dns:1",
         "Description":"If enabled, auto-installs uMod when the server is updated",
         "Keywords":"install,umod",
         "FieldName":"uMod",
@@ -110,9 +142,11 @@
             "False":"false",
             "True":"true"
         }
-    },{
+    },
+    {
         "DisplayName":"Load Steam Workshop Mods",
-        "Category":"Server Settings",
+        "Category":"Hurtworld:stadia_controller",
+        "Subcategory":"Server:dns:1",
         "Description":"Space-separated list of Steam Workshop mod IDs to load on the server",
         "Keywords":"mods",
         "FieldName":"loadmod",
@@ -124,9 +158,11 @@
         "DefaultValue":"",
         "Placeholder":"714026119 704019543",
         "EnumValues":{}        
-    },{
+    },
+    {
         "DisplayName":"Enable Autowipe",
-        "Category":"Server Settings",
+        "Category":"Hurtworld:stadia_controller",
+        "Subcategory":"Server:dns:1",
         "Description":"If enabled, server wipe will be enabled",
         "Keywords":"autowipe,wipe",
         "FieldName":"autowipe",
@@ -139,9 +175,11 @@
             "False":"0",
             "True":"1"
         }
-    },{
+    },
+    {
         "DisplayName":"Wipe Interval",
-        "Category":"Server Settings",
+        "Category":"Hurtworld:stadia_controller",
+        "Subcategory":"Server:dns:1",
         "Description":"Sets the server wipe schedule, as shown in the server browser. A negative number will show no wipe. Needs wipe enabled to work",
         "Keywords":"wipe,interval,schedule",
         "FieldName":"wipeinterval",
@@ -154,9 +192,11 @@
         "Suffix":"seconds",
         "Placeholder":"1209600",
         "EnumValues":{}
-    },{
+    },
+    {
         "DisplayName":"Player Loot Mode",
-        "Category":"Server Settings",
+        "Category":"Hurtworld:stadia_controller",
+        "Subcategory":"Server:dns:1",
         "Description":"Sets the player loot mode. Note: Alternate loot modes are experimental and may not work properly",
         "Keywords":"player,loot",
         "FieldName":"playerlootmode",
@@ -175,9 +215,11 @@
             "5":"Drop nothing",
             "6":"Destroy everything"
         }
-    },{
+    },
+    {
         "DisplayName":"Enable Autosave",
-        "Category":"Server Settings",
+        "Category":"Hurtworld:stadia_controller",
+        "Subcategory":"Server:dns:1",
         "Description":"If enabled, server will be autosaved",
         "Keywords":"autosave",
         "FieldName":"autosaveenabled",
@@ -190,9 +232,11 @@
             "False":"0",
             "True":"1"
         }
-    },{
+    },
+    {
         "DisplayName":"Auto Backup Interval",
-        "Category":"Server Settings",
+        "Category":"Hurtworld:stadia_controller",
+        "Subcategory":"Server:dns:1",
         "Description":"Sets how often the autosave should be backed up. Specify -1 to disable backup",
         "Keywords":"backup,interval",
         "FieldName":"autobackupinterval",
@@ -207,7 +251,8 @@
         "EnumValues":{}
     },{
         "DisplayName":"Enable Structure Decay",
-        "Category":"Server Settings",
+        "Category":"Hurtworld:stadia_controller",
+        "Subcategory":"Server:dns:1",
         "Description":"If enabled, structures will decay",
         "Keywords":"structure,decay",
         "FieldName":"structuredecayenabled",
@@ -220,9 +265,11 @@
             "False":"0",
             "True":"1"
         }
-    },{
+    },
+    {
         "DisplayName":"Structure Decay Frequency",
-        "Category":"Server Settings",
+        "Category":"Hurtworld:stadia_controller",
+        "Subcategory":"Server:dns:1",
         "Description":"Sets how often a structure will be damaged by decay. Low values may have a performance impact",
         "Keywords":"structure,decay,frequency",
         "FieldName":"structuredecayfrequency",
@@ -234,9 +281,11 @@
         "DefaultValue":"600",
         "Placeholder":"600",
         "EnumValues":{}
-    },{
+    },
+    {
         "DisplayName":"Structure Decay Damage",
-        "Category":"Server Settings",
+        "Category":"Hurtworld:stadia_controller",
+        "Subcategory":"Server:dns:1",
         "Description":"Sets how much damage occurs when a structure decays. Specify one value for a set damage amount, or specify two values for a range",
         "Keywords":"structure,decay,damage",
         "FieldName":"structuredecaydamage",
@@ -248,9 +297,11 @@
         "DefaultValue":"5 10",
         "Placeholder":"5 10",
         "EnumValues":{}
-    },{
+    },
+    {
         "DisplayName":"Structure Decay Start Time",
-        "Category":"Server Settings",
+        "Category":"Hurtworld:stadia_controller",
+        "Subcategory":"Server:dns:1",
         "Description":"Sets how long a structure must be both unclaimed and unmodified, before it begins to decay",
         "Keywords":"structure,decay,modify,time",
         "FieldName":"structuredecaymodifytime",
@@ -262,9 +313,11 @@
         "DefaultValue":"86400",
         "Placeholder":"86400",
         "EnumValues":{}
-    },{
+    },
+    {
         "DisplayName":"Display Connection/Disconnection Messages",
-        "Category":"Server Settings",
+        "Category":"Hurtworld:stadia_controller",
+        "Subcategory":"Server:dns:1",
         "Description":"If enabled, connection and disconnection messages will be displayed",
         "Keywords":"connection,disconnection,message",
         "FieldName":"chatconnectionmessagesenabled",
@@ -277,9 +330,11 @@
             "False":"0",
             "True":"1"
         }
-    },{
+    },
+    {
         "DisplayName":"Display Death Messages",
-        "Category":"Server Settings",
+        "Category":"Hurtworld:stadia_controller",
+        "Subcategory":"Server:dns:1",
         "Description":"If enabled, death messages will be displayed",
         "Keywords":"death,message",
         "FieldName":"chatdeathmessagesenabled",
@@ -292,9 +347,11 @@
             "False":"0",
             "True":"1"
         }
-    },{
+    },
+    {
         "DisplayName":"Chat Spam Filter Threshold",
-        "Category":"Server Settings",
+        "Category":"Hurtworld:stadia_controller",
+        "Subcategory":"Server:dns:1",
         "Description":"Sets the chat spam filter threshold. Lower values mean players will be muted sooner",
         "Keywords":"chat,spam,filter",
         "FieldName":"chatspambudget",
@@ -306,9 +363,11 @@
         "DefaultValue":"200",
         "Placeholder":"200",
         "EnumValues":{}
-    },{
+    },
+    {
         "DisplayName":"Spawner Time",
-        "Category":"Server Settings",
+        "Category":"Hurtworld:stadia_controller",
+        "Subcategory":"Server:dns:1",
         "Description":"Sets how much time spawners can take",
         "Keywords":"spawner,time",
         "FieldName":"spawnercellupdatesperframe",
@@ -320,9 +379,11 @@
         "DefaultValue":"20",
         "Placeholder":"20",
         "EnumValues":{}
-    },{
+    },
+    {
         "DisplayName":"Stake Deauthorise Time",
-        "Category":"Server Settings",
+        "Category":"Hurtworld:stadia_controller",
+        "Subcategory":"Server:dns:1",
         "Description":"Sets the time a full ownership stake will take to deauthorise",
         "Keywords":"stake,deauthorise",
         "FieldName":"stakedeauthtime",
@@ -335,9 +396,11 @@
         "Suffix":"seconds",
         "Placeholder":"7200",
         "EnumValues":{}
-    },{
+    },
+    {
         "DisplayName":"Target FPS",
-        "Category":"Server Settings",
+        "Category":"Hurtworld:stadia_controller",
+        "Subcategory":"Server:dns:1",
         "Description":"Sets the target FPS for the server. Specify -1 for unlimited (not recommended)",
         "Keywords":"target,fps",
         "FieldName":"targetfps",
@@ -349,9 +412,11 @@
         "DefaultValue":"100",
         "Placeholder":"100",
         "EnumValues":{}
-    },{
+    },
+    {
         "DisplayName":"Load Balancer Resources",
-        "Category":"Server Settings",
+        "Category":"Hurtworld:stadia_controller",
+        "Subcategory":"Server:dns:1",
         "Description":"Sets how many resources the Load Balancer can use per frame",
         "Keywords":"load,balancer,resources",
         "FieldName":"loadbalancerframebudget",
@@ -363,9 +428,11 @@
         "DefaultValue":"100",
         "Placeholder":"100",
         "EnumValues":{}
-    },{
+    },
+    {
         "DisplayName":"Enable Load Balancer Monitoring",
-        "Category":"Server Settings",
+        "Category":"Hurtworld:stadia_controller",
+        "Subcategory":"Server:dns:1",
         "Description":"If enabled, allows monitoring of the Load Balancer (view using \"dumploadbalancer\" command). Do not leave this enabled, as it has significant overhead",
         "Keywords":"monitor,load,balancer",
         "FieldName":"monitorloadbalancer",
@@ -378,5 +445,17 @@
             "False":"0",
             "True":"1"
         }
+    },
+    {
+        "DisplayName":"Additional Launch Console Variables",
+        "Category":"Hurtworld:stadia_controller",
+        "Subcategory":"Server:dns:1",
+        "Description":"Specifies a semi-colon separated list of additional console variables to launch the server with that are not otherwise set by AMP. Use with care",
+        "Keywords":"custom,server,arguments,variables,cvars,convars,parameters",
+        "FieldName":"CustomConVars",
+        "InputType":"text",
+        "ParamFieldName":"CustomConVars",
+        "DefaultValue":"",
+        "EnumValues":{}
     }
 ]

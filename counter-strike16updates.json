@@ -34,7 +34,7 @@
         "UpdateSourcePlatform":"Linux",
         "UpdateSource":"Executable",
         "UpdateSourceData":"/bin/bash",
-        "UpdateSourceArgs":"-c '\\cp -rf ./counter-strike/90/bin/linux32/* ./counter-strike/90/ && rm -rf ./counter-strike/90/bin/ ./counter-strike/90/hlsdk/'",
+        "UpdateSourceArgs":"-c \"\\cp -rf ./counter-strike/90/bin/linux32/* ./counter-strike/90/ && rm -rf ./counter-strike/90/bin/ ./counter-strike/90/hlsdk/\"",
         "UpdateSourceConditionSetting":"InstallreHLDS",
         "UpdateSourceConditionValue":"true",
         "SkipOnFailure":false
@@ -87,7 +87,7 @@
         "UpdateSourcePlatform":"Linux",
         "UpdateSource":"Executable",
         "UpdateSourceData":"/bin/bash",
-        "UpdateSourceArgs":"-c 'rm -rf ./counter-strike/90/cstrike/sdk/ ./counter-strike/90/cstrike/example_plugin/'",
+        "UpdateSourceArgs":"-c \"rm -rf ./counter-strike/90/cstrike/sdk/ ./counter-strike/90/cstrike/example_plugin/\"",
         "UpdateSourceConditionSetting":"InstallMetamod",
         "UpdateSourceConditionValue":"metamod-r",
         "SkipOnFailure":true
@@ -97,7 +97,7 @@
         "UpdateSourcePlatform":"Linux",
         "UpdateSource":"Executable",
         "UpdateSourceData":"/bin/bash",
-        "UpdateSourceArgs":"-c \"sed -i '/^gamedll_linux .*$/ { s//gamedll_linux \\\"addons\\/metamod\\/dlls\\/metamod.so\\\"/ }' counter-strike/90/cstrike/liblist.gam\"",
+        "UpdateSourceArgs":"-c \"sed -i \\\"/^gamedll_linux .*$/ { s//gamedll_linux \\\\\\\"addons\\/metamod\\/dlls\\/metamod.so\\\\\\\"/ }\\\" counter-strike/90/cstrike/liblist.gam\"",
         "UpdateSourceConditionSetting":"InstallMetamod",
         "UpdateSourceConditionValue":"metamod-amx",
         "SkipOnFailure":false
@@ -117,7 +117,7 @@
         "UpdateSourcePlatform":"Linux",
         "UpdateSource":"Executable",
         "UpdateSourceData":"/bin/bash",
-        "UpdateSourceArgs":"-c \"sed -i '/^gamedll_linux .*$/ { s//gamedll_linux \\\"addons\\/metamod\\/metamod_i386.so\\\"/ }' counter-strike/90/cstrike/liblist.gam\"",
+        "UpdateSourceArgs":"-c \"sed -i \\\"/^gamedll_linux .*$/ { s//gamedll_linux \\\\\\\"addons\\/metamod\\/metamod_i386.so\\\\\\\"/ }\\\" counter-strike/90/cstrike/liblist.gam\"",
         "UpdateSourceConditionSetting":"InstallMetamod",
         "UpdateSourceConditionValue":"metamod-r",
         "SkipOnFailure":false
